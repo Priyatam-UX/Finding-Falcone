@@ -1,0 +1,58 @@
+html{
+    background-color: #ffe4c438;
+}
+
+.fp_image{
+    width: 100%;
+    height: 45%;
+}
+
+.images{
+    display: flex;
+}
+
+.images img{
+    width: 50%;
+    height: 25%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.planets{
+    display :   flex;
+    justify-content: space-around  ;
+}
+
+.vehicle{
+    margin: 2em;
+    margin-left: 0;
+}
+
+.find-div{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.find-btn{
+    font-size: x-large;
+}
+
+
+input:disabled{
+    cursor: not-allowed;
+}
+
+.timeTaken{
+    font-weight: bold;
+}
+
+.grey{
+    cursor: not-allowed;
+    color: lightgrey;
+}
